@@ -1,0 +1,24 @@
+# Auto Prompting Chatbot (Python)
+
+def auto_prompt_chatbot():
+    print("🤖 Hi! I'm your Auto-Prompting Chatbot.")
+    name = input("What's your name? ")
+
+    print(f"Nice to meet you, {name}!")
+
+    while True:
+        user_input = input("You: ").lower()
+
+        if "project" in user_input:
+            print("Bot: Do you want project ideas in web development, AI, or data science?")
+        elif "web" in user_input:
+            print("Bot: Great! Do you prefer frontend, backend, or full-stack projects?")
+        elif "ai" in user_input:
+            print("Bot: AI is awesome! Do you want beginner or advanced projects?")
+        elif "bye" in user_input:
+            print("Bot: Bye 👋, see you soon!")
+            break
+        else:
+            print("Bot: Hmm… can you tell me more or type 'project' or 'web'?")
+
+auto_prompt_chatbot()
