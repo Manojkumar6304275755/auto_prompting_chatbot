@@ -1,8 +1,8 @@
 # Auto Prompting Chatbot (Python)
 
 def auto_prompt_chatbot():
-    print("🤖 Hi! I'm your Auto-Prompting Chatbot.")
-    name = input("What's your name? ")
+    print("Hi! I'm your Auto-Prompting Chatbot.")
+    name = input("What's your name?")
 
     print(f"Nice to meet you, {name}!")
 
